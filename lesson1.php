@@ -31,6 +31,6 @@
     echo $count;
     $x = 10;
     $x+=10;
-
-
+    echo "<br>";
+    if (++$x == 10) echo $x;
     ?>
