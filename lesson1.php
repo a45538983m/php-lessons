@@ -29,6 +29,8 @@
     $count +=1;
     echo "<br>";
     echo $count;
+    $x = 10;
+    $x+=10;
 
-    
+
     ?>
