@@ -33,4 +33,6 @@
     $x+=10;
     if ($x < 10) echo "x less than 10";
 
+    echo "<br>";
+    if (++$x == 10) echo $x;
     ?>
