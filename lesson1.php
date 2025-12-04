@@ -35,4 +35,7 @@
 
     echo "<br>";
     if (++$x == 10) echo $x;
+
+    $text = "My spelling\'s stiil arthous";
+    $text = "She wrote upon it,\"Return to sender\"";
     ?>
