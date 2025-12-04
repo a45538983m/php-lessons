@@ -33,4 +33,6 @@
     $x+=10;
     echo "<br>";
     if (++$x == 10) echo $x;
+
+    $text = "My spelling\'s stiil arthous"
     ?>
