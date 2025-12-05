@@ -40,9 +40,16 @@
     $text = "She wrote upon it,\"Return to sender\". ";
 
     $heading = "Дата\tИмя\tДата";
-
+    echo "<br>";
+    echo $heading;
     //number
     $number = 12345 * 67890;
+    echo "<br>";
     echo substr($number,3,1);
+
+    $pi = "3.1415927";
+    $radius = 5;
+    echo "br";
+    echo ($pi *($radius * $radius));
     
     ?>
