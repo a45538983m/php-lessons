@@ -49,7 +49,13 @@
 
     $pi = "3.1415927";
     $radius = 5;
-    echo "br";
+    echo "<br>";
     echo ($pi *($radius * $radius));
     
+    function longdate($timestamp){
+        return date("l F jS y", $timestamp);
+    }
+    echo "<br>";
+    $lg = longdate(5);
+    echo $lg;
     ?>
