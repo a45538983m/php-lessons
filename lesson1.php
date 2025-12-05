@@ -46,10 +46,13 @@
     $number = 12345 * 67890;
     echo "<br>";
     echo substr($number,3,1);
-
+    echo "<br>";
+    echo __LINE__;
+    echo "<br>";
     $pi = "3.1415927";
     $radius = 5;
-    echo "br";
+    echo "<br>";
     echo ($pi *($radius * $radius));
+    echo "<br>";
     
     ?>
