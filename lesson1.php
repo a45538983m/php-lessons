@@ -54,5 +54,11 @@
     echo "<br>";
     echo ($pi *($radius * $radius));
     echo "<br>";
+    echo __DIR__;
+    
+    echo "<br>";
+    $b =0;
+    $b ? print "TRUE" : print "FALSE";
+    echo "<br>";
     
     ?>
