@@ -40,4 +40,9 @@
     $text = "She wrote upon it,\"Return to sender\". ";
 
     $heading = "Дата\tИмя\tДата";
+
+    //number
+    $number = 12345 * 67890;
+    echo substr($number,3,1);
+    
     ?>
