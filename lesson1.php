@@ -70,4 +70,7 @@
 
     echo "<br>";
     echo longdate(time());
+
+    $came_from = $_SERVER['HTTP_REFERRER'];
+    
     ?>
