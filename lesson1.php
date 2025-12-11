@@ -67,4 +67,7 @@
     echo "<br>";
     $lg = longdate(5);
     echo $lg;
+
+    echo "<br>";
+    echo longdate(time());
     ?>
